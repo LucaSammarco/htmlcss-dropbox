@@ -125,6 +125,79 @@ p.arrow-down{
 main {
     display: flex;
     flex-direction: column;
-    padding: 0 13rem;
+    padding: 0 13.5rem;
     margin-top: 10rem;
+    height: 1500px;
+}
+
+
+.plan-frequency h2 {
+    margin-bottom: 2rem;
+}
+
+label {
+    margin-right: 1rem; ;
+}
+
+input[type="radio"] {
+    
+}
+
+.plan-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-box-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #b4d0e7;
+    width: calc((100% / 3) - 2rem);
+    max-width: calc((100% / 3) - 2rem);
+ 
+}
+
+.feature-box-title h3 {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.plan-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% / 3) - 2rem);
+    max-width: calc((100% / 3) - 2rem);
+    height: 700px;
+    padding: 1rem;
+    border: 1px solid #b4d0e7;
+    flex-wrap: wrap;
+    margin-bottom: ;
+}
+
+.info-box h4 {
+    margin-bottom: 1rem;
+}
+
+.info-box p {
+    margin-bottom: 1rem;
+}
+
+.enterprise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    margin-top: 3rem;
+    background-color: azure;
+    padding: 0 13.5rem;
 }
