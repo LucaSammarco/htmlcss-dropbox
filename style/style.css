@@ -127,7 +127,7 @@ main {
     flex-direction: column;
     padding: 0 13.5rem;
     margin-top: 10rem;
-    height: 1500px;
+    /* height: 1500px; */
 }
 
 
@@ -277,4 +277,28 @@ object-fit: contain;
 
     color: black;
     padding: 0.5rem 1rem;
+}
+
+.dropbox-business-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.business-operations-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.business-operations-info {
+    width: calc((100% / 3) - 2rem);
+    background-color: aqua;
+    margin-bottom: 1rem;
+
 }
