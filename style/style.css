@@ -233,3 +233,48 @@ input[type="radio"] {
     padding: 0.5rem 1rem; */
     
 }
+
+
+.find-partner {
+    display: flex;
+    /* height: 400px; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /* background-color: rgb(255, 245, 240); */
+    /* padding: 0 13.5rem; */
+    justify-content: center;
+    /* border: 1px solid #020d16; */
+    width: 100%;}
+
+.partner-image {
+    width: 75%;
+}
+
+.find-partner img {
+       
+width: 100%;  */
+object-fit: contain;
+    }
+
+.partner-text {
+    width: 40%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.partner-text-info h3{ 
+    margin-bottom: 1rem;
+}
+
+.partner-text-info p{ 
+    margin-bottom: 1rem;
+}
+
+.partner-text-info button {
+    
+
+    color: black;
+    padding: 0.5rem 1rem;
+}
