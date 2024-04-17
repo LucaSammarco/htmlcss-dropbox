@@ -267,7 +267,7 @@ input[type="radio"] {
     display: flex;
     /* height: 400px; */
     margin-top: 3rem;
-    background-color: rgb(255, 245, 240);
+  
     /* padding: 0 13.5rem; */
     justify-content: center;
     border: 1px solid #020d16;
@@ -284,6 +284,7 @@ input[type="radio"] {
 
 .enterprise-section-info {
     border: 1px solid #020d16;
+    border-top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -534,7 +535,7 @@ object-fit: contain;
 
 .trail-container {
     display: flex;
-    background-color: #0093ce;
+    background-color: #b4d0e7;
     padding: 0 13.5rem;
     width: 100%;
     
@@ -554,13 +555,14 @@ object-fit: contain;
     width: 50%;
     margin-top: 2rem;
     font-weight: bold;
+    color: #61082b;
 }
 
 .trial button {
     padding: 0.4rem;
     border: none;
     padding-inline: 1.5rem;
-    
+    background-color: white;
     
 }
 
@@ -568,7 +570,7 @@ object-fit: contain;
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    padding: 0 13.5rem;
+    padding: 0 13.5rem 5rem;
     width: 100%;
 }
 
