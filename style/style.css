@@ -29,7 +29,7 @@ header .logo-bar {
     justify-content: space-between;
     /* background-color: aquamarine; */
     padding: 1.2rem 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 
 }
 
@@ -60,12 +60,13 @@ header .logo-bar {
     margin-right: 1rem;
 }
 
-.button-blu {
-    background-color: blue;
+header .button-blu {
+    background-color: #0061ff;
     /* border-color: blue; */
     border: none;
     color: white;
     padding: 0.2rem 1rem;
+    font-size: 0.7rem;
     /* border-radius: 5px; */
     /* text-decoration: none; */
 }
@@ -105,13 +106,21 @@ header .logo-bar {
 
 }
 
+.jumbo-text-box button{  
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+   
+}
+
+.fa-arrow-down {
+    font-size: 2rem;
+}
+
 p.arrow-down{  
     margin-top: 2rem;
 }
 
-.jumbo-text-box > button {
-       
-}
+
 
 .jumbo-text-box img {
     position: absolute;
@@ -161,9 +170,10 @@ input[type="radio"] {
     flex-direction: column;
     margin-top: 2rem;
     padding: 1rem;
-    border: 1px solid #b4d0e7;
+    border: 1px solid #dddde0;
     width: calc((100% / 3) - 2rem);
     max-width: calc((100% / 3) - 2rem);
+    border-bottom: 00;
  
 }
 
@@ -186,18 +196,49 @@ input[type="radio"] {
     max-width: calc((100% / 3) - 2rem);
     height: 700px;
     padding: 1rem;
-    border: 1px solid #b4d0e7;
+    border: 1px solid #dddde0;
     flex-wrap: wrap;
     margin-bottom: ;
 }
 
 .info-box h4 {
     margin-bottom: 1rem;
+    
 }
 
 .info-box p {
     margin-bottom: 1rem;
+    
 }
+
+.type-of-plan {
+    color: gray;
+    margin-bottom: 6rem;
+}
+
+
+.price {
+    font-weight: bold;
+}
+
+.info-box ul {
+    position: relative;
+}
+
+.info-box ul li {
+    list-style: none;
+    margin: 1.5rem 0rem;
+
+
+}
+
+.icons {
+    position: absolute
+    left: 1rem;
+    text-indent: -1.5rem;
+}
+
+
 
 .enterprise-section {
     display: flex;
