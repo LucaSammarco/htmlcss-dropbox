@@ -276,7 +276,7 @@ input[type="radio"] {
   
     /* padding: 0 13.5rem; */
     justify-content: center;
-    border: 1px solid gray;
+    border: 1px solid #dddde0;
     width: 100%;}
 
 .feature-box-title-enterprise {
@@ -289,7 +289,7 @@ input[type="radio"] {
 }
 
 .enterprise-section-info {
-    border: 1px solid gray;
+    border: 1px solid #dddde0;
     border-top: 0;
     width: 100%;
     display: flex;
@@ -628,21 +628,39 @@ footer nav ul li {
     
 }
 
+footer nav ul {
+    margin-bottom: 3rem;
+}
+
 footer nav ul li a{
     text-decoration: none;
     color: white;
+    
     
 }
 
 footer nav ul li:first-child a{
     color: white;
     font-weight: bold;
+    font-size: 1rem;
+    
 }
 
+footer nav ul li:first-child {
+   margin-bottom: 2rem;
+    
+}
 
 .language {
     color: white;
-    border-top: 1px solid white;
-    max-width: 20%;
+    border-top: 1px solid #dddde0;
+    max-width: 15%;
     padding: 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.language p {
+    padding-right: 0.5rem;
 }
