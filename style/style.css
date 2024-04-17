@@ -71,6 +71,7 @@ header .button-blu {
     /* text-decoration: none; */
 }
 
+
 .jumbotrone {
     background-color: #b4d0e7;
     /* height: 500px; */
@@ -194,7 +195,7 @@ input[type="radio"] {
     flex-direction: column;
     width: calc((100% / 3) - 2rem);
     max-width: calc((100% / 3) - 2rem);
-    height: 700px;
+    height: 900px;
     padding: 1rem;
     border: 1px solid #dddde0;
     flex-wrap: wrap;
@@ -208,6 +209,7 @@ input[type="radio"] {
 
 .info-box p {
     margin-bottom: 1rem;
+    font-size: 0.8rem;
     
 }
 
@@ -228,6 +230,8 @@ input[type="radio"] {
 .info-box ul li {
     list-style: none;
     margin: 1.5rem 0rem;
+    font-size: 0.8rem;
+    padding: ;
 
 
 }
@@ -239,6 +243,25 @@ input[type="radio"] {
 }
 
 
+.info-box .button-blu {
+    background-color: #0061ff;
+    /* border-color: blue; */
+    border: none;
+    color: white;
+    padding: 0.2rem 1rem;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    /* border-radius: 5px; */
+    /* text-decoration: none; */
+}
+
+.short-line {
+    margin-top: 1.5rem;
+    width: 25%;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 1.5rem;
+}
 
 .enterprise-section {
     display: flex;
@@ -255,6 +278,7 @@ input[type="radio"] {
     text-align: center; */
     padding: 1rem;
     /* border: 1px solid #020d16; */
+    font-size: 0.8rem;
    
 }
 
@@ -271,15 +295,26 @@ input[type="radio"] {
     width: 70%;
 }
 
+.enterprise-text-p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
 .enterprise-info-text {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
     
 }
 
-.enterprise-button {
-    /* margin-top: 1rem;
-    padding: 0.5rem 1rem; */
-    
+.enterprise-button button {
+    background-color: #0061ff;
+    /* border-color: blue; */
+    border: none;
+    color: white;
+    padding: 0.8rem 1rem;
+    font-size: 0.7rem;
+    /* border-radius: 5px; */
+    /* text-decoration: none; */
 }
 
 
@@ -316,15 +351,20 @@ object-fit: contain;
     margin-bottom: 1rem;
 }
 
+.enterprise-text h4 {
+    margin-bottom: 0.7rem;
+}
+
 .partner-text-info p{ 
     margin-bottom: 1rem;
 }
 
 .partner-text-info button {
-    
-
+    background-color: white;
     color: black;
+    border: 1px solid;
     padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
 }
 
 .dropbox-business-section {
@@ -333,6 +373,9 @@ object-fit: contain;
     flex-wrap: wrap;
 }
 
+.dropbox-business-section h3 {
+    margin-bottom: 3rem;
+}
 
 
 .business-operations-boxes {
@@ -346,9 +389,26 @@ object-fit: contain;
 
 .business-operations-info {
     width: calc((100% / 3) - 2rem);
-    background-color: aqua;
+    
     margin-bottom: 1rem;
 
+}
+
+
+.business-operations-info img {
+    width: 100%;
+    height: auto;
+    ;
+}
+
+.business-operations-info h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.business-operations-info  {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
 }
 
 
